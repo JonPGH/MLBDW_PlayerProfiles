@@ -773,7 +773,7 @@ def main():
                             create_gauge_chart(stat_name, player_bb, league_bb)
                         
                         with col3:
-                            create_gauge_chart('fContact', p_fdur, 100)
+                            create_gauge_chart('fDurability', p_fdur, 100)
                         with col4:
                             create_gauge_chart('fStuff', fStuff, 100)
                         with col5:
